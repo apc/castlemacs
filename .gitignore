@@ -9,3 +9,5 @@ auto-save-list/
 README.html
 flucui-light-test-theme.el
 ido.last
+custom.el
+private.el
