@@ -274,13 +274,14 @@
 ;; BASIC NAVIGATION
 
 
-;; Move around with Cmd+i/j/k/l. This is not for everybody, and it takes away four very well placed
+;; Move around with Ctrl+Cmd+h/j/k/l. This is not for everybody, and it takes away four very well placed
 ;; key combinations, but if you get used to using these keys instead of arrows, it will be worth it,
 ;; I promise.
-(global-set-key (kbd "s-i") 'previous-line)
-(global-set-key (kbd "s-k") 'next-line)
-(global-set-key (kbd "s-j") 'left-char)
-(global-set-key (kbd "s-l") 'right-char)
+
+(global-set-key (kbd "C-s-h") 'left-char)
+(global-set-key (kbd "C-s-j") 'next-line)
+(global-set-key (kbd "C-s-k") 'previous-line)
+(global-set-key (kbd "C-s-l") 'right-char)
 
 
 ;; Kill line with CMD-Backspace. Note that thanks to Simpleclip, killing doesn't rewrite the system clipboard.
