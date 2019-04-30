@@ -215,8 +215,8 @@
 
 
 ;; Set colors to distinguish between active and inactive windows
-(set-face-attribute 'mode-line nil :background "SlateGray1")
-(set-face-attribute 'mode-line-inactive nil :background "grey93")
+;; (set-face-attribute 'mode-line nil :background "SlateGray1")
+;; (set-face-attribute 'mode-line-inactive nil :background "grey93")
 
 
 ;; File tree
