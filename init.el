@@ -166,7 +166,7 @@
 
 ;; Enable transparent title bar on macOS
 (when (memq window-system '(mac ns))
-  (add-to-list 'default-frame-alist '(ns-appearance . light)) ;; {light, dark}
+  (add-to-list 'default-frame-alist '(ns-appearance . dark)) ;; {light, dark}
   (add-to-list 'default-frame-alist '(ns-transparent-titlebar . t)))
 
 
@@ -177,7 +177,7 @@
 
 
 ;; Nice and simple default light theme.
-(load-theme 'tsdh-light)
+;; (load-theme 'tsdh-light)
 
 
 ;; Pretty icons
